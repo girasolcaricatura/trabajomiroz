@@ -15,8 +15,11 @@ header {
     background: #6cc6e2;
     color: #fff;
 }
-header h1 {
+header .home {
     margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
 }
 header h1:hover {
     cursor: pointer;
@@ -35,4 +38,50 @@ nav ul li a {
 }
 nav ul li a:hover {
     color: #dddbad;
+}
+main {
+    background: #dddbad;
+    color: #fff;
+}
+main .info_boxes {
+    display: flex;
+}
+main h1 {
+    font-size: 8rem;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+main p {
+    font-size: 4rem;
+}
+main p strong {
+    color:#6cc6e2;
+}
+main p strong:hover {
+    cursor: pointer;
+    color: #fff;
+}
+main .right_box {
+    width: 70%;
+    padding-right: 20px;
+    padding-top: 100px;
+}
+main .images_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+main .images_container img {
+    width: 400px;
+    padding: 10px;
+}
+footer {
+    background: #0f252d;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
 }
