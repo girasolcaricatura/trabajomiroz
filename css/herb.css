@@ -42,6 +42,7 @@ nav ul li a:hover {
 main {
     background: #dddbad;
     color: #fff;
+    height: 100vh;
 }
 main .class_up_text {
     display: flex;
@@ -59,8 +60,9 @@ main .class_up_text p {
     cursor: pointer;
     color: #6cc6e2;
 } */
-main .class_up_text h1 {
+main  h1 {
     font-size: 8rem;
+    padding: 20px 20px 0px 40px;
 }
 main .class_up_text h1:hover {
     cursor: pointer;
@@ -75,9 +77,10 @@ main .main_content img {
 main .main_content img:hover {
     cursor: pointer;
 }
-main .main_content p {
+main .class_title p {
     font-size: 4rem;
     padding: 40px 20px 20px 20px;
+    color: #fff;
 
 }
 main .main_content p:hover {
