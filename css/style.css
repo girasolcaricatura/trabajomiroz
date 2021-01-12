@@ -75,17 +75,29 @@ main {
     }
 }
 .info_left {
-    margin-top: 5px;
+    margin-top: 0;
     display: flex;
 }
 .info_left figure img {
-    padding-left: 10px;
+    padding-top: 5px;
     width: 600px;
+}
+.index-text {
+    display: flex;
+    flex-direction: column;
+}
+.info_left h2 {
+    font-size: 7rem;
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
 }
 .info_left p {
     font-size: 4rem;
-    padding: 10px;
+    padding: 20px;
     padding-top: 120px;
+    color: #fff;
+    text-align: center;
 }
 .info_right {
     display: flex;
@@ -95,13 +107,18 @@ main {
     padding-right: 60px;
 }
 .info_right p {
-    font-size: 4rem;
+    font-size: 6rem;
     padding: 30px;
+    color: #fff;
 }
 footer {
     background: #0f252d;
     color: #fff;
     height: 50px;
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
 }
