@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #6cc6e2;
+    color: #fff;
+}
+header .home {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+header h1:hover {
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    padding-right: 20px;
+    font-size: 2rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #dddbad;
+}
+main {
+    background: #dddbad;
+    color: #fff;
+}
+main .class_up_text {
+    display: flex;
+    align-items: center;
+}
+.left_box {
+    width: 700px;
+}
+main .class_up_text p {
+    font-size: 2rem;
+    padding: 40px 20px 20px 40px;
+    color: #000;
+}
+/* main .class_up_text p:hover {
+    cursor: pointer;
+    color: #6cc6e2;
+} */
+main .class_up_text h1 {
+    font-size: 8rem;
+}
+main .class_up_text h1:hover {
+    cursor: pointer;
+    color: #6cc6e2;
+}
+main .main_content {
+    display: flex;
+}
+main .main_content img {
+    width: 700px;
+}
+main .main_content img:hover {
+    cursor: pointer;
+}
+main .main_content p {
+    font-size: 4rem;
+    padding-left: 20px;
+}
+main .main_content p:hover {
+    cursor: pointer;
+    color: #6cc6e2;
+}
+footer {
+    background: #0f252d;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
