@@ -50,7 +50,6 @@ main a {
     font-size: 6rem;
     text-decoration: none;
     color: #6cc6e2;
-    padding: 20px;
 }
 main a:hover {
     color: #fff;
@@ -65,13 +64,14 @@ title h1:hover {
 }
 .box_left {
     display: flex;
+    width: 1000px;
 }
 .box_left img {
-    width: 600px;
+    width: 400px;
     margin: 20px 50px 0 20px ;
 }
 .box_left .text p {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 40px;
 }
 footer {
