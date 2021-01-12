@@ -99,6 +99,15 @@ main {
     color: #fff;
     text-align: center;
 }
+.index_class {
+    display: flex;
+}
+.index_class img {
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
 .info_right {
     display: flex;
 }
@@ -107,9 +116,25 @@ main {
     padding-right: 60px;
 }
 .info_right p {
-    font-size: 6rem;
+    font-size: 8rem;
     padding: 30px;
     color: #fff;
+}
+.info_right .email {
+    font-size: 6rem;
+    font-weight: bold;
+}
+.info_right  a {
+    text-decoration: none;
+    color: #6cc6e2;
+}
+.info_right input {
+    padding: 10px;
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border-color: black;
+
 }
 footer {
     background: #0f252d;
