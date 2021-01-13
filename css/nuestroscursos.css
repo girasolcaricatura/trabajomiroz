@@ -51,8 +51,14 @@ main h1 {
     padding-top: 20px;
     padding-left: 40px;
 }
+main h1:hover {
+    text-decoration: underline;
+    color: #6cc6e2;
+}
 main p {
-    font-size: 4rem;
+    font-size: 3rem;
+    padding-bottom: 30px;
+    padding-right: 30px;
 }
 main p strong {
     color:#6cc6e2;

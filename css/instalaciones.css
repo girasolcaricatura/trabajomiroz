@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #6cc6e2;
+    color: #fff;
+}
+header .home {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+header h1:hover {
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    padding-right: 20px;
+    font-size: 2rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #dddbad;
+}
+main {
+    background: #dddbad;
+    color: #fff;
+}
+main .welcome_video {
+    display: flex;
+    margin-left: 10px;
+}
+main video {
+    width: 900px;
+    margin-top: 5px;
+}
+main video:hover {
+    cursor: pointer;
+}
+main h2 {
+    font-size: 5rem;
+    margin-top: 50px;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+main h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #6cc6e2;
+}
+main .welcome_text p {
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+main .welcome_text strong {
+    text-decoration: underline;
+}
+main .welcome_text strong:hover {
+    color: #6cc6e2;
+}
+.text_box {
+    display: flex;
+}
+.box_left {
+    width: 50vw;
+}
+.box_left:hover {
+    cursor: pointer;
+    color: #6cc6e2;
+}
+.text_box .box_left p {
+    font-size: 2.5rem;
+    padding: 20px 0 0 40px;
+}
+.box_right {
+    background:#6cc6e2;
+    border-radius: 2px;
+    margin-top: 15px;
+    width: 700px;
+}
+.box_right:hover {
+    cursor: pointer;
+}
+.box_right p:hover {
+    text-decoration: underline;
+}
+.box_right p a:hover {
+    color:  #dddbad;
+}
+.box_right p {
+    font-size: 2.5rem;
+    padding: 10px
+}
+.box_right a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #fff;
+}
+.audio {
+    width: 200px;
+}
+footer {
+    background: #0f252d;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 20px;
+}
