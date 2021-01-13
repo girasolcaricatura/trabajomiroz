@@ -55,6 +55,13 @@ main h2:hover {
 main .box_container {
     display: flex;
 }
+main .box_container img {
+    margin-left: 20px;
+    width: 300px;
+}
+main .box_container img:hover {
+    border: solid 5px  #6cc6e2;
+}
 footer {
     background: #0f252d;
     color: #fff;
