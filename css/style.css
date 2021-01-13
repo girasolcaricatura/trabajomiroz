@@ -95,6 +95,10 @@ main {
     color: #fff;
     padding-top: 40px;
 }
+.info_left h2:hover {
+    color: #6cc6e2;
+    text-decoration: underline;
+}
 .info_left p {
     font-size: 4rem;
     padding: 20px;
@@ -140,7 +144,6 @@ main {
     margin-left: 30px;
     border-radius: 5px;
     border: none;
-
 }
 footer {
     background: #0f252d;
