@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #6cc6e2;
+    color: #fff;
+}
+header .home {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+header h1:hover {
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    padding-right: 20px;
+    font-size: 2rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #dddbad;
+}
+main {
+    background: #dddbad;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+}
+.left_box {
+    width: 20%;
+    padding: 40px 20px 20px 40px;
+}
+.left_box img:hover {
+    cursor: pointer;
+}
+.middle_box {
+    width: 50%;
+    padding-top: 40px;
+}
+.middle_box h2 {
+    font-size: 4rem;
+}
+.middle_box h2:hover {
+    cursor: pointer;
+    color:#6cc6e2;
+}
+.middle_box p {
+    font-size: 2rem;
+    color: #000;
+    width: 60%;
+}
+.middle_box .inverted {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.middle_box .inverted strong {
+    color: #fff ;
+}
+.right_box {
+    padding-top: 30px;
+    width: 20%;
+}
+.right_box a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #6cc6e2;
+    display: block;
+}
+.right_box a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+footer {
+    background: #0f252d;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
