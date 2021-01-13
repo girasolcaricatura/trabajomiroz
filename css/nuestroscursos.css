@@ -78,7 +78,10 @@ main .images_container {
 }
 main .images_container img {
     width: 400px;
-    padding: 10px;
+    margin: 10px;
+}
+main .images_container img:hover {
+    border: solid 4px #6cc6e2;
 }
 footer {
     background: #0f252d;

@@ -82,8 +82,7 @@ main {
     display: flex;
 }
 .info_left figure img {
-    padding-top: 5px;
-    width: 600px;
+    width: 550px;
 }
 .index-text {
     display: flex;
@@ -111,10 +110,12 @@ main {
 }
 .index_class figure img {
     width: 300px;
-    padding-left: 20px;
-    padding-top: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
 }
-
+.index_class figure img:hover {
+    border: solid 4px #6cc6e2;
+}
 .info_right {
     display: flex;
 }
@@ -145,6 +146,11 @@ main {
     border-radius: 5px;
     border: none;
 }
+.text {
+    font-size: 2rem;
+    text-align: center;
+}
+
 footer {
     background: #0f252d;
     color: #fff;
